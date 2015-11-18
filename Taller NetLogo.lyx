@@ -1,0 +1,368 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language spanish-mexico
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language french
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\align center
+
+\size larger
+Tutorial #1 NetLogo
+\end_layout
+
+\begin_layout Enumerate
+Presione el botón "setup".
+ 
+\series bold
+¿Qué le aparece en la vista? 
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+Se inicializa el proceso, generando aleatoria mente ovejas y lobos en la
+ pantalla de visualización y se activa el Botón Go
+\end_layout
+
+\begin_layout Enumerate
+Presione el botón "go" para iniciar la simulación.
+ 
+\series bold
+¿Qué le está sucediendo a las poblaciones de lobos y ovejas a medida que
+ está corriendo el modelo?
+\series default
+ 
+\begin_inset Newline newline
+\end_inset
+
+La Población de lobos y ovejas empieza a aumentar, luego los lobos empiezan
+ a comerse a las ovejas hasta un momento en el que las ovejas quedan casi
+ extintas, luego por el poco alimento para los lobos, estos empiezan a morir
+ y las ovejas vuelven a reproducirse hasta quedar solo población de ovejas.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+¿Alguna vez obtendrá resultados diferentes si ejecuta el modelo en repetidas
+ ocasiones manteniendo la misma configuración?
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+Si, en algunos casos los lobos sobreviven y se empiezan a alimentar de las
+ ovejas y a reproducirse hasta acabar con la población de ovejas totalmente
+ para despues ir muriendo hasta desaparecer totalmente por la falta de alimento.
+\end_layout
+
+\begin_layout Enumerate
+Abra Wolf Sheep Predation si aun no está abierto.
+ 
+\begin_inset Newline newline
+\end_inset
+
+Presione "setup" y "go" y deje que el modelo corra por aproximadamente 100
+ ticks de tiempo.
+ (Nota: hay una lectura del número de ticks justo encima de la parcela).
+ 
+\begin_inset Newline newline
+\end_inset
+
+Detenga el modelo pulsando el botón "go".
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+¿Qué pasó con las ovejas a través del tiempo? 
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+La Población de Ovejas disminuyo 
+\end_layout
+
+\begin_layout Enumerate
+Encienda el switch de la hierba ("grass?").
+ Presione "setup" y "go" y deje correr el modelo por una cantidad de tiempo
+ similar al de la anterior.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+¿Qué le hizo este switch al modelo? ¿Fue el mismo resultado de la ejecución
+ previa?
+\series default
+ 
+\begin_inset Newline newline
+\end_inset
+
+Hizo que aparecieran zonas sin hierba lo que hacia que las ovejas se dirigieran
+ hacia la hierva y se mantuvieran en movimiento, lo que le hace mas difícil
+ a los lobos alimentarse y a lo largo del tiempo las poblaciones tanto de
+ lobos como de ovejas se mantienen en un rango sin aumentar o disminuir.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Graphics
+	filename poblacion.PNG
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+¿Qué sucedería con la población de ovejas si hay al comienzo de la simulación
+ inician más ovejas y menos lobos?
+\begin_inset Newline newline
+\end_inset
+
+Apague "grass?".
+ Establezca el slider del número inicial de ovejas" ( "initial-number-sheep")
+ a 100.
+ Establezca el slider del número inicial de lobos ("initial-number-wolves")
+ a 20.
+ Presione "setup" y luego "go".
+ Permita que el modelo corra alrededor de 100 ticks de tiempo.
+\begin_inset Newline newline
+\end_inset
+
+Intente correr el modelo varias veces con estos ajustes.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+¿Qué le ocurrió a la población de ovejas? 
+\begin_inset Newline newline
+\end_inset
+
+
+\series default
+Aumento mas rápidamente la población de ovejas, la población de lobos crece
+ lentamente y al acercarse a los 100 ticks empieza a crecer mas rápidamente
+ para luego de mas de 150 ticks acabar con la población total de ovejas
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+¿Le sorprendió este resultado?, ¿Qué otros sliders o switches se pueden
+ ajustar para ayudarle a la población de ovejas? 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Graphics
+	filename switch.PNG
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series default
+Están los Switch ''Sheep-gain-from-food'' y ''Sheep-reproduce'', que permiten
+ ajustar cuando gana cada oveja por unidad de comida y ajustar la tasa de
+ reproducción respectivamente.
+\end_layout
+
+\begin_layout Enumerate
+Ajuste el número inicial de ovejas a 80 y el número inicial de lobos a 50.
+ (Esto es cercano a la forma en que estaban cuando usted abrió el modelo
+ por primera vez.) Fije "sheep-reproduce" en 10,0%.
+ Presione "setup" y luego "go".
+ Permita que el modelo corra alrededor de 100 ticks de tiempo.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+¿Qué le pasó a los lobos en esta ejecución? 
+\begin_inset Newline newline
+\end_inset
+
+
+\series default
+Se reproducen lentamente en comparación a la rapidez con que se reproducen
+ las ovejas, y ninguna de las 2 poblaciones disminuye con el tiempo.
+\end_layout
+
+\begin_layout Enumerate
+Presione "setup" y luego "go" para iniciar la ejecución del modelo .
+ A medida que corra el modelo, mueva el slider de la velocidad a la izquierda.
+ 
+\series bold
+¿Qué sucede?
+\series default
+ 
+\begin_inset Newline newline
+\end_inset
+
+Las iteraciones se hacen mas lentas al igual que la animación.
+\end_layout
+
+\begin_layout Enumerate
+Mueva el slider de velocidad a la mitad.
+ Pruebe moviendo el slider de la velocidad a la derecha.
+ Ahora intente marcando y desmarcando la casilla de verificación de las
+ actualizaciones de la vista (view updates).
+
+\series bold
+ ¿Qué sucede? 
+\begin_inset Newline newline
+\end_inset
+
+
+\series default
+La animación ya no se actualizara pero sigue iterando normalmente, y a mayor
+ velocidad.
+\end_layout
+
+\begin_layout Enumerate
+¿Cuáles son los ajustes actuales para max-pxcor, pxcor-min, max-pycor, min-pycor
+, y patch size (tamaño del parche)? 
+\begin_inset Newline newline
+\end_inset
+
+max-pxcor: 25
+\begin_inset Newline newline
+\end_inset
+
+min-pxcor: -25
+\begin_inset Newline newline
+\end_inset
+
+max-pycor: 25
+\begin_inset Newline newline
+\end_inset
+
+min-pycor: -25
+\begin_inset Newline newline
+\end_inset
+
+patch size: 9
+\end_layout
+
+\begin_layout Enumerate
+¿Qué números cambiaron?
+\begin_inset Newline newline
+\end_inset
+
+Los números que no cambiaron fueron los del patch size.
+\end_layout
+
+\begin_layout Enumerate
+¿Qué números no cambiaron? 
+\begin_inset Newline newline
+\end_inset
+
+Las coordenadas X y Y donde se ubica la vista no cambiaron.
+\end_layout
+
+\begin_layout Enumerate
+Utilizando el diálogo de Model Settings que aun sigue abierto, cambie max-pxcor
+ a 30 y el valor de max-pycor a 10.
+ Observe que min-pxcor min-pycor también cambian.
+ Esto se debe a que por defecto el origen (0,0) está en el centro del mundo.
+ 
+\series bold
+¿Qué le ocurrió a la forma de la vista? 
+\begin_inset Newline newline
+\end_inset
+
+
+\series default
+La vista se alargo horizontalmente.
+\end_layout
+
+\begin_layout Enumerate
+Edite la vista pulsando nuevamente el botón "Settings...".
+ Cambie el tamaño del parche (patch size) a 20 y presione "OK".
+ 
+\series bold
+¿Qué pasó con el tamaño de la vista?, ¿cambió esto su forma? 
+\begin_inset Newline newline
+\end_inset
+
+
+\series default
+No Cambio la forma de la vista, pero si aumento de tamaño junto con los
+ elementos internos.
+\end_layout
+
+\end_body
+\end_document

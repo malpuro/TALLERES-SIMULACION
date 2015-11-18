@@ -1,0 +1,442 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language spanish-mexico
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language french
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size largest
+Taller #2 NetLogo
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+El Centro de Comando
+\end_layout
+
+\begin_layout Itemize
+En el tráfico básico: Presione el botón "setup".
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+busque el Centro de Comando.
+ 
+\end_layout
+
+\begin_layout Itemize
+Haga clic con el ratón en el cuadro blanco en la parte inferior del Centro
+ de Comando.
+ 
+\end_layout
+
+\begin_layout Itemize
+Escriba el texto que se muestra aquí:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Graphics
+	filename comandos.PNG
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Pulse la tecla de retorno.
+ 
+\series bold
+¿Qué le pasó a la vista?
+\begin_inset Newline newline
+\end_inset
+
+
+\series default
+El fondo de la vista cambio de color a amarillo y la calle desapareció.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+¿Por qué los coches no se cambiaron también a amarillo? 
+\begin_inset Newline newline
+\end_inset
+
+
+\series default
+El comando indica cambiar el color de los parches, y los coches son una
+ entidad llamada tortugas por lo que no cambian de color también.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Escriba en el cuadro blanco en la parte inferior del Centro de Comando el
+ texto que aparece a continuación: ''ask turtles [set color brown]'' 
+\series bold
+¿Fue el resultado de lo que esperaba? 
+\begin_inset Newline newline
+\end_inset
+
+
+\series default
+Si, cambio el color de los coches a café incluyendo el coche rojo
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+En el Centro de Comando, 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Haga clic en el "observer>" en la esquina inferior izquierda.
+ 
+\end_layout
+
+\begin_layout Itemize
+Elija "turtles" ("tortugas") en el menú emergente.
+ 
+\end_layout
+
+\begin_layout Itemize
+Escriba set color pink y pulse retorno.
+ 
+\end_layout
+
+\begin_layout Itemize
+Pulse la tecla de tabulación hasta que vea "patches>" en la esquina inferior
+ izquierda.
+ 
+\end_layout
+
+\begin_layout Itemize
+Escriba set pcolor white y pulse retorno.
+
+\series bold
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+¿Cómo luce ahora la vista?
+\begin_inset Newline newline
+\end_inset
+
+
+\series default
+El fondo cambio a blanco y el color de los coches cambio a rosado.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+¿Nota alguna diferencia entre estos dos comandos y los comando del observer
+ anteriores?
+\series default
+ 
+\begin_inset Newline newline
+\end_inset
+
+La unica diferencia es que en los comandos del observer se indica a quien
+ va el comando con el ask
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Presione "setup".
+
+\series bold
+ ¿Qué pasó? 
+\begin_inset Newline newline
+\end_inset
+
+
+\series default
+Volvio a la configuracion por defecto.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Trabajando con Colores
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+¿Cuál es la diferencia entre el color y pcolor?.
+ 
+\begin_inset Newline newline
+\end_inset
+
+
+\series default
+El comando color solo puede ser usado en los agentes turtles, mientras que
+ el comando pcolor puede ser usado en patches y turtles y cambia el color
+ de las parcelas actuales, en el caso de turtles pinta la parcela donde
+ esta ubicado.
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Elija "turtles" en el menú desplegable del Centro de Comando (o utilice
+ la tecla de tabulación).
+ 
+\end_layout
+
+\begin_layout Enumerate
+Escriba set color blue y pulse retorno.
+ 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Graphics
+	filename pcolor.PNG
+	lyxscale 70
+	scale 70
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Comando: turtles>set pcolor red
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+
+\series bold
+Monitores de Agente y Comandantes de Agente
+\end_layout
+
+\begin_layout Itemize
+Presione "setup" para que reaparezca el coche rojo.
+ 
+\end_layout
+
+\begin_layout Itemize
+Si usted está en un equipo Macintosh, mantenga pulsada la tecla Control
+ y haga clic en el coche rojo.
+ En otros sistemas operativos, haga clic sobre el coche rojo con el botón
+ derecho del ratón.
+ 
+\end_layout
+
+\begin_layout Itemize
+Si hay otra tortuga cerca de la tortuga de color rojo verá más de una tortuga
+ listada en la parte inferior del menú.
+ Mueva el ratón encima de las tortugas seleccionadas, observe que cuando
+ el ratón resalta un elemento del menú de la tortuga, la tortuga también
+ es resaltada en la vista.
+ Para la tortuga de color rojo seleccione del sub-menú la opción "inspect
+ turtle" ("inspeccionar las tortuga").
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+¿Cuál es el who number de la tortuga?
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+El Who es 9
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+¿De qué color es esta tortuga?
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+El Color es 15
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+¿De qué forma es esta tortuga? 
+\begin_inset Newline newline
+\end_inset
+
+
+\series default
+Tiene forma de coche.
+\end_layout
+
+\begin_layout Itemize
+En el Comandante de Agente del monitor de turtle escriba set color pink
+ para la tortuga 0.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+¿Qué sucede en la vista?
+\begin_inset Newline newline
+\end_inset
+
+
+\series default
+El carro que es la tortuga 0 ahora es de color rosado.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+¿Cambió algo en el monitor de la tortuga? 
+\begin_inset Newline newline
+\end_inset
+
+
+\series default
+El numero del color en el monitor cambio a 135
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Seleccione el texto a la derecha de "color" en el Monitor de Tortuga.
+ Escriba un nuevo color como green + 2.
+ 
+\series bold
+¿Qué pasó? 
+\begin_inset Newline newline
+\end_inset
+
+
+\series default
+El color del coche cambio automáticamente a verde y el numero cambio a 57
+\end_layout
+
+\begin_layout Itemize
+Al igual que hay Turtle Monitors (monitores de la tortuga), también hay
+ Patch Monitors (monitores de Parches).
+ Los monitores de parche trabajan muy similar a los monitores de tortuga.
+ 
+\series bold
+¿Puede hacer un monitor de parche y utilizarlo para cambiar el color de
+ un solo parche? 
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
